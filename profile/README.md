@@ -11,6 +11,8 @@
 
 ## Get Started
 
+As option watch this [playlist on russian](https://www.youtube.com/watch?v=tOdoN6NBIOk&list=PLBQcTLwZqeGRtCOc6nBVxaPdsLouO8aU_&index=3)
+
 ### 1. Create a Computer
 
 1. Go to [control-hub.org](https://control-hub.org)  
@@ -59,3 +61,6 @@
 ## Achiteture
 ![image](https://github.com/user-attachments/assets/5f7a5ff1-3521-410e-916f-c8497a7c018c)
 
+## License
+
+This project is licensed under the MIT License.
