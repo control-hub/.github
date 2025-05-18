@@ -1,4 +1,5 @@
-# ControlHub
+# ControlHub ![MIT License](https://img.shields.io/badge/License-MIT-blue.svg) [![SaaS](https://img.shields.io/badge/SaaS-Live-blueviolet)](https://control-hub.org)
+
 
 **ControlHub** is a SaaS platform for centralized management of multiple computers using customizable Python scripts.
 
@@ -58,7 +59,7 @@ As option watch this [playlist on russian](https://www.youtube.com/watch?v=tOdoN
 3. Write your Python code and save it  
 4. Test it by executing it on any computer in your team
 
-## Achiteture
+## Architecture
 ![image](https://github.com/user-attachments/assets/5f7a5ff1-3521-410e-916f-c8497a7c018c)
 
 ## License
