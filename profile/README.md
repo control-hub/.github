@@ -40,6 +40,9 @@ As option watch this [playlist on russian](https://www.youtube.com/watch?v=tOdoN
 2. Create a new link with required permissions (e.g. `edit_computer` to allow running scripts)  
 3. Send this link to the person you want to invite
 
+> [!CAUTION]
+> Access and team permissions are very dangerous, becouse they allow user to see links, manage access and other admin stuff.
+
 ## Audit Executions
 
 ### By Computer
@@ -58,6 +61,10 @@ As option watch this [playlist on russian](https://www.youtube.com/watch?v=tOdoN
 2. Create a new script (you can make it public or keep it private)  
 3. Write your Python code and save it  
 4. Test it by executing it on any computer in your team
+
+> [!NOTE]
+> You may use `{{VAR}}` syntax in python code and any `{{VAR}}` code fragment will be replaced with what you like there to be,
+> Also if you use `{{VARIABLE or Default value}}`, then on execution `Default value` will be placed in field `VARIABLE`
 
 ## Architecture
 ![image](https://github.com/user-attachments/assets/5f7a5ff1-3521-410e-916f-c8497a7c018c)
