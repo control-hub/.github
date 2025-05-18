@@ -7,7 +7,7 @@
 - **[Web Application](https://github.com/control-hub/controlhub-app)** — SvelteKit frontend → [control-hub.org](https://control-hub.org)  
 - **[PocketBase Backend](https://github.com/control-hub/controlhub-pb)** — Extended PocketBase (Go)  
 - **[Client Program](https://github.com/control-hub/controlhub-client)** — Python-based installer for each computer  
-- **[Python Library](https://github.com/control-hub/controlhub-lib)** — Python API to control Windows PCs  
+- **[Python Library](https://github.com/control-hub/controlhub-lib)** — Python library to control Windows PCs  
 
 ## Get Started
 
