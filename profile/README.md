@@ -10,6 +10,33 @@
 - **[Client Program](https://github.com/control-hub/controlhub-client)** — Python-based installer for each computer  
 - **[Python Library](https://github.com/control-hub/controlhub-lib)** — Python library to control Windows PCs  
 
+## Features
+
+### Core scripts
+
+I've already written most usefull scripts like `Turn On`, `Turn Off`, `Run program` etc.
+So you do not need to write scripts from 0, you already have most needed
+
+> [!NOTE]
+> `Turn On` script is working using WOL technology, so select 1 active computer from region, add offline computers in selected and run script, offline computers will turn on. Also might not work if WOL is not enabled.
+
+### Dynamic variables
+
+Script will ask you to insert some value in `{{VAR}}` field, so for example is printing script:
+
+```py
+print("{{TEXT}}")
+```
+
+And if in `TEXT` input field I'll insert `Hello World`, then I'll get:
+
+```py
+print("Hello world")
+```
+
+It manualy changes code on every execution. And if you will write `{{TEXT or Hi}}`, then in `TEXT` input field `Hi` will be set by default.
+
+
 ## Get Started
 
 As option watch this [playlist on russian](https://www.youtube.com/watch?v=tOdoN6NBIOk&list=PLBQcTLwZqeGRtCOc6nBVxaPdsLouO8aU_&index=3)
@@ -61,10 +88,6 @@ As option watch this [playlist on russian](https://www.youtube.com/watch?v=tOdoN
 2. Create a new script (you can make it public or keep it private)  
 3. Write your Python code and save it  
 4. Test it by executing it on any computer in your team
-
-> [!NOTE]
-> You may use `{{VAR}}` syntax in python code and any `{{VAR}}` code fragment will be replaced with what you like there to be,
-> Also if you use `{{VARIABLE or Default value}}`, then on execution `Default value` will be placed in field `VARIABLE`
 
 ## Architecture
 ![image](https://github.com/user-attachments/assets/5f7a5ff1-3521-410e-916f-c8497a7c018c)
